@@ -31,8 +31,15 @@ public class GhostMove : MonoBehaviour
 	{
 		if (co.name == "pacman")
         {
-			Destroy(co.gameObject);
-			FindObjectOfType<GameManager>().EndGame();
+			if (GameManager.getLive() > 0)
+            {
+				GameManager.setLive();
+			}
+			else
+			{
+				Destroy(co.gameObject);
+				FindObjectOfType<GameManager>().EndGame();
+			}
 		}
 		
 	}
