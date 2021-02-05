@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
     {
         live -= 1;
         GameObject.Find("labelText_live").GetComponent<Text>().text = "Live: " + live;
-        GameObject.Find("pacman").GetComponent<Transform>().position = new Vector3(71, 56, 0);
+        GameObject.Find("pacman").GetComponent<Transform>().position = new Vector3(71, 31, 0);
 
     }
 
