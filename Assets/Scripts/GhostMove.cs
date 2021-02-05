@@ -27,20 +27,4 @@ public class GhostMove : MonoBehaviour
 		GetComponent<Animator>().SetFloat("DirY", dir.y);
 	}
 
-	void OnTriggerEnter2D(Collider2D co)
-	{
-		if (co.name == "pacman")
-        {
-			if (GameManager.getLive() > 0)
-            {
-				GameManager.setLive();
-			}
-			else
-			{
-				Destroy(co.gameObject);
-				FindObjectOfType<GameManager>().EndGame();
-			}
-		}
-		
-	}
 }

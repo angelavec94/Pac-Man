@@ -48,4 +48,21 @@ public class PacmanMove : MonoBehaviour
         return (hit.collider == GetComponent<Collider2D>());
     }
 
+    void OnTriggerEnter2D(Collider2D co)
+    {
+        if (co.tag == "ghost")
+        {
+            if (GameManager.getLive() > 0)
+            {
+                GameManager.setLive();
+            }
+            else
+            {
+                //Destroy(co.gameObject);
+                FindObjectOfType<GameManager>().EndGame();
+            }
+        }
+
+    }
+
 }
