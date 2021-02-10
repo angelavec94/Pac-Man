@@ -6,7 +6,7 @@ public class PacmanMove : MonoBehaviour
 {
 
     public float speed = 0.4f;
-    Vector2 dest = Vector2.zero;
+    public Vector2 dest = Vector2.zero;
 
 
     // Use this for initialization

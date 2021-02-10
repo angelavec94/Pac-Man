@@ -4,6 +4,9 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    //-------------------------------------------------------------------
+    // Game variables
+
     bool gameHasEnded = false;
     public static int cont = 0;
     public static int live = 3;
@@ -47,7 +50,7 @@ public class GameManager : MonoBehaviour
         GameObject.Find("labelText").GetComponent<Text>().text = "Score: " +  ++cont;
         if (cont == 323)
         {
-            FindObjectOfType<Text>().text = "YOU WIN";
+            FindObjectOfType<Text>().text = "YOU WIN!";
             cont = 0;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
