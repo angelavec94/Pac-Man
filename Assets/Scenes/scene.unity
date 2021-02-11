@@ -121,7 +121,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &927860
+--- !u!1 &4085524
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,57 +129,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 927861}
+  - component: {fileID: 4085525}
   m_Layer: 0
-  m_Name: Pinky_Waypoint13
+  m_Name: inky_waypoint5 (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &927861
+--- !u!4 &4085525
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927860}
+  m_GameObject: {fileID: 4085524}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.413334, y: -59.92009, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_LocalPosition: {x: 46.41, y: 16.03, z: 1899.1536}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1266802
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1266803}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint15
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1266803
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266802}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 66.41333, y: -47.92009, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 16
+  m_Father: {fileID: 1043513755}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6437786
 GameObject:
@@ -195,7 +165,7 @@ GameObject:
   - component: {fileID: 6437787}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -316,7 +286,7 @@ GameObject:
   - component: {fileID: 8476228}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -437,7 +407,7 @@ GameObject:
   - component: {fileID: 26460223}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -544,6 +514,96 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 138
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &32025501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 32025502}
+  m_Layer: 0
+  m_Name: clyde_waypoint8
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &32025502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32025501}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 46.68, y: -59.9, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &36991427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 36991428}
+  m_Layer: 0
+  m_Name: inky_waypoint6
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &36991428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36991427}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 46.35, y: -23.89, z: 1899.1536}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1043513755}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &38526571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 38526572}
+  m_Layer: 0
+  m_Name: clyde_waypoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &38526572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38526571}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.74, y: 0.1452713, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &39226754
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,7 +618,7 @@ GameObject:
   - component: {fileID: 39226755}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -679,7 +739,7 @@ GameObject:
   - component: {fileID: 47442517}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -800,7 +860,7 @@ GameObject:
   - component: {fileID: 52852587}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -921,7 +981,7 @@ GameObject:
   - component: {fileID: 53609421}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1042,7 +1102,7 @@ GameObject:
   - component: {fileID: 54617271}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1163,7 +1223,7 @@ GameObject:
   - component: {fileID: 55299706}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1304,6 +1364,36 @@ Transform:
   m_Father: {fileID: 1637021827}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &72616153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 72616154}
+  m_Layer: 0
+  m_Name: inky_waypoint7
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &72616154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72616153}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 26.25, y: -23.89, z: 1899.1536}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1043513755}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &73596392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1318,7 +1408,7 @@ GameObject:
   - component: {fileID: 73596393}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1425,66 +1515,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 233
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &75097250
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 75097251}
-  m_Layer: 0
-  m_Name: clyde_waypoint4
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &75097251
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 75097250}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.745926, y: -47.85473, z: 3.1912842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &75954730
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 75954731}
-  m_Layer: 0
-  m_Name: clyde_waypoint15
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &75954731
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 75954730}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.254074, y: -23.854729, z: 3.1912842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &79546392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,7 +1529,7 @@ GameObject:
   - component: {fileID: 79546393}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1620,7 +1650,7 @@ GameObject:
   - component: {fileID: 82373803}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1727,6 +1757,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 310
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &89826040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 89826041}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint16
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &89826041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89826040}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 66.45, y: -8.01, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &92571645
 GameObject:
   m_ObjectHideFlags: 0
@@ -1741,7 +1801,7 @@ GameObject:
   - component: {fileID: 92571646}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1848,36 +1908,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &96075833
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 96075834}
-  m_Layer: 0
-  m_Name: clyde_waypoint1
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &96075834
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 96075833}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.745926, y: 0.1452713, z: 3.1912842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &109139251
 GameObject:
   m_ObjectHideFlags: 0
@@ -1892,7 +1922,7 @@ GameObject:
   - component: {fileID: 109139252}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1999,6 +2029,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 255
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &127068265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 127068266}
+  m_Layer: 0
+  m_Name: clyde_waypoint10
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &127068266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127068265}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 54.77, y: -71.9, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &128299436
 GameObject:
   m_ObjectHideFlags: 0
@@ -2013,7 +2073,7 @@ GameObject:
   - component: {fileID: 128299437}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2120,7 +2180,7 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &138308321
+--- !u!1 &138389732
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2128,99 +2188,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 138308322}
-  - component: {fileID: 138308324}
-  - component: {fileID: 138308323}
+  - component: {fileID: 138389733}
   m_Layer: 0
-  m_Name: Pinky_Waypoint26
+  m_Name: clyde_waypoint7
   m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &138308322
+--- !u!4 &138389733
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138308321}
+  m_GameObject: {fileID: 138389732}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.413334, y: 12.07991, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_LocalPosition: {x: 46.68, y: -35.83, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 27
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &138308323
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138308321}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a4c7fbebc73c28441a3889423861039c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!212 &138308324
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138308321}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &139683016
 GameObject:
   m_ObjectHideFlags: 0
@@ -2235,7 +2224,7 @@ GameObject:
   - component: {fileID: 139683017}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2342,6 +2331,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &149298180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 149298181}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint17
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &149298181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149298180}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 66.45, y: 3.84, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &151043122
 GameObject:
   m_ObjectHideFlags: 0
@@ -2356,7 +2375,7 @@ GameObject:
   - component: {fileID: 151043123}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2463,6 +2482,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 211
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &152148154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 152148155}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint11
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &152148155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152148154}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -33.6, y: -60.01, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &155053172
 GameObject:
   m_ObjectHideFlags: 0
@@ -2477,7 +2526,7 @@ GameObject:
   - component: {fileID: 155053173}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2598,7 +2647,7 @@ GameObject:
   - component: {fileID: 158259247}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2719,7 +2768,7 @@ GameObject:
   - component: {fileID: 158649803}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2840,7 +2889,7 @@ GameObject:
   - component: {fileID: 161341076}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2961,7 +3010,7 @@ GameObject:
   - component: {fileID: 164155229}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3082,7 +3131,7 @@ GameObject:
   - component: {fileID: 168284148}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3203,7 +3252,7 @@ GameObject:
   - component: {fileID: 173561955}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3310,6 +3359,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &181750300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 181750301}
+  m_Layer: 0
+  m_Name: clyde_waypoint11
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &181750301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181750300}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -45.3, y: -71.9, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &185132998
 GameObject:
   m_ObjectHideFlags: 0
@@ -3324,7 +3403,7 @@ GameObject:
   - component: {fileID: 185132999}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3445,7 +3524,7 @@ GameObject:
   - component: {fileID: 192122556}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3566,7 +3645,7 @@ GameObject:
   - component: {fileID: 202655516}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3687,7 +3766,7 @@ GameObject:
   - component: {fileID: 204753501}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3808,7 +3887,7 @@ GameObject:
   - component: {fileID: 205653489}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3929,7 +4008,7 @@ GameObject:
   - component: {fileID: 209699497}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4050,7 +4129,7 @@ GameObject:
   - component: {fileID: 211178567}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4171,7 +4250,7 @@ GameObject:
   - component: {fileID: 235764954}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4292,7 +4371,7 @@ GameObject:
   - component: {fileID: 240332671}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4413,7 +4492,7 @@ GameObject:
   - component: {fileID: 242933975}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4534,7 +4613,7 @@ GameObject:
   - component: {fileID: 250603849}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4685,7 +4764,7 @@ GameObject:
   - component: {fileID: 257279726}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4806,7 +4885,7 @@ GameObject:
   - component: {fileID: 264156080}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4927,7 +5006,7 @@ GameObject:
   - component: {fileID: 264597641}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5048,7 +5127,7 @@ GameObject:
   - component: {fileID: 266318377}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5169,7 +5248,7 @@ GameObject:
   - component: {fileID: 267723759}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5290,7 +5369,7 @@ GameObject:
   - component: {fileID: 271044808}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5411,7 +5490,7 @@ GameObject:
   - component: {fileID: 283473755}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5532,7 +5611,7 @@ GameObject:
   - component: {fileID: 286964197}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5653,7 +5732,7 @@ GameObject:
   - component: {fileID: 288974039}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5774,7 +5853,7 @@ GameObject:
   - component: {fileID: 289478283}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5895,7 +5974,7 @@ GameObject:
   - component: {fileID: 291007438}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6016,7 +6095,7 @@ GameObject:
   - component: {fileID: 303757736}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6137,7 +6216,7 @@ GameObject:
   - component: {fileID: 304075340}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6244,36 +6323,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 178
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &308423651
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 308423652}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint9
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &308423652
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308423651}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.413334, y: -35.92009, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &309808712
 GameObject:
   m_ObjectHideFlags: 0
@@ -6288,7 +6337,7 @@ GameObject:
   - component: {fileID: 309808713}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6409,7 +6458,7 @@ GameObject:
   - component: {fileID: 315271094}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6530,7 +6579,7 @@ GameObject:
   - component: {fileID: 317174428}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6651,7 +6700,7 @@ GameObject:
   - component: {fileID: 322867968}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6772,7 +6821,7 @@ GameObject:
   - component: {fileID: 326611593}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6879,6 +6928,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 309
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &326823661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 326823662}
+  m_Layer: 0
+  m_Name: clyde_waypoint6
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &326823662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326823661}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 34.53, y: -35.83, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &331337670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6969,7 +7048,7 @@ GameObject:
   - component: {fileID: 334080134}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7090,7 +7169,7 @@ GameObject:
   - component: {fileID: 342123957}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7211,7 +7290,7 @@ GameObject:
   - component: {fileID: 347647765}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7332,7 +7411,7 @@ GameObject:
   - component: {fileID: 348259741}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7453,7 +7532,7 @@ GameObject:
   - component: {fileID: 348979020}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7604,7 +7683,7 @@ GameObject:
   - component: {fileID: 353144204}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7889,7 +7968,7 @@ GameObject:
   - component: {fileID: 362629178}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8010,7 +8089,7 @@ GameObject:
   - component: {fileID: 362750383}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8117,36 +8196,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &377800901
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 377800902}
-  m_Layer: 0
-  m_Name: clyde_waypoint8
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &377800902
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 377800901}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.254074, y: -59.85473, z: 3.1912842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &379925769
 GameObject:
   m_ObjectHideFlags: 0
@@ -8161,7 +8210,7 @@ GameObject:
   - component: {fileID: 379925770}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8282,7 +8331,7 @@ GameObject:
   - component: {fileID: 388881440}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8403,7 +8452,7 @@ GameObject:
   - component: {fileID: 392637234}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8524,7 +8573,7 @@ GameObject:
   - component: {fileID: 397254214}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8645,7 +8694,7 @@ GameObject:
   - component: {fileID: 410042968}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8766,7 +8815,7 @@ GameObject:
   - component: {fileID: 410474998}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8887,7 +8936,7 @@ GameObject:
   - component: {fileID: 410665978}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9008,7 +9057,7 @@ GameObject:
   - component: {fileID: 420953590}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9129,7 +9178,7 @@ GameObject:
   - component: {fileID: 433598658}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9250,7 +9299,7 @@ GameObject:
   - component: {fileID: 438855339}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9371,7 +9420,7 @@ GameObject:
   - component: {fileID: 443046886}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9492,7 +9541,7 @@ GameObject:
   - component: {fileID: 451638827}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9613,7 +9662,7 @@ GameObject:
   - component: {fileID: 458942547}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9734,7 +9783,7 @@ GameObject:
   - component: {fileID: 463504015}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9855,7 +9904,7 @@ GameObject:
   - component: {fileID: 466666934}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9976,7 +10025,7 @@ GameObject:
   - component: {fileID: 468339430}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10097,7 +10146,7 @@ GameObject:
   - component: {fileID: 470084939}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10218,7 +10267,7 @@ GameObject:
   - component: {fileID: 474781219}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10488,25 +10537,22 @@ MonoBehaviour:
   - {fileID: 2054198555}
   - {fileID: 578730689}
   - {fileID: 1876538645}
-  - {fileID: 1058360188}
-  - {fileID: 308423652}
-  - {fileID: 868742172}
-  - {fileID: 2057011603}
-  - {fileID: 508889011}
-  - {fileID: 927861}
-  - {fileID: 1105111935}
-  - {fileID: 1266803}
-  - {fileID: 1670845192}
-  - {fileID: 1250721026}
-  - {fileID: 2093202932}
-  - {fileID: 942622963}
-  - {fileID: 1278293993}
-  - {fileID: 1818137593}
-  - {fileID: 890873027}
-  - {fileID: 2027865959}
-  - {fileID: 1008343779}
-  - {fileID: 1893890077}
-  - {fileID: 138308322}
+  - {fileID: 1272765476}
+  - {fileID: 775417034}
+  - {fileID: 906290890}
+  - {fileID: 152148155}
+  - {fileID: 1298317561}
+  - {fileID: 1951879606}
+  - {fileID: 1039104208}
+  - {fileID: 647803882}
+  - {fileID: 89826041}
+  - {fileID: 149298181}
+  - {fileID: 1663084323}
+  - {fileID: 1366777991}
+  - {fileID: 1404761086}
+  - {fileID: 1083713687}
+  - {fileID: 2108566694}
+  - {fileID: 757634447}
   speed: 0.5
 --- !u!1 &480441597
 GameObject:
@@ -10522,7 +10568,7 @@ GameObject:
   - component: {fileID: 480441598}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10665,25 +10711,22 @@ Transform:
   - {fileID: 2054198555}
   - {fileID: 578730689}
   - {fileID: 1876538645}
-  - {fileID: 1058360188}
-  - {fileID: 308423652}
-  - {fileID: 868742172}
-  - {fileID: 2057011603}
-  - {fileID: 508889011}
-  - {fileID: 927861}
-  - {fileID: 1105111935}
-  - {fileID: 1266803}
-  - {fileID: 1670845192}
-  - {fileID: 1250721026}
-  - {fileID: 2093202932}
-  - {fileID: 942622963}
-  - {fileID: 1278293993}
-  - {fileID: 1818137593}
-  - {fileID: 890873027}
-  - {fileID: 2027865959}
-  - {fileID: 1008343779}
-  - {fileID: 1893890077}
-  - {fileID: 138308322}
+  - {fileID: 1272765476}
+  - {fileID: 775417034}
+  - {fileID: 906290890}
+  - {fileID: 152148155}
+  - {fileID: 1298317561}
+  - {fileID: 1951879606}
+  - {fileID: 1039104208}
+  - {fileID: 647803882}
+  - {fileID: 89826041}
+  - {fileID: 149298181}
+  - {fileID: 1663084323}
+  - {fileID: 1366777991}
+  - {fileID: 1404761086}
+  - {fileID: 1083713687}
+  - {fileID: 2108566694}
+  - {fileID: 757634447}
   m_Father: {fileID: 60156431}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10701,7 +10744,7 @@ GameObject:
   - component: {fileID: 485483367}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10808,6 +10851,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 244
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &485886179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 485886180}
+  m_Layer: 0
+  m_Name: inky_waypoint11
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &485886180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485886179}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 34.34, y: 52.1, z: 1899.1536}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1043513755}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &493417027
 GameObject:
   m_ObjectHideFlags: 0
@@ -10822,7 +10895,7 @@ GameObject:
   - component: {fileID: 493417028}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10943,7 +11016,7 @@ GameObject:
   - component: {fileID: 499724237}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11050,36 +11123,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 205
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &508889010
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 508889011}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint12
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &508889011
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 508889010}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.413334, y: -47.92009, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &508932738
 GameObject:
   m_ObjectHideFlags: 0
@@ -11093,8 +11136,8 @@ GameObject:
   - component: {fileID: 508932740}
   - component: {fileID: 508932739}
   m_Layer: 0
-  m_Name: pacdot01
-  m_TagString: Untagged
+  m_Name: pacdot
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11215,7 +11258,7 @@ GameObject:
   - component: {fileID: 515824289}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11419,7 +11462,7 @@ GameObject:
   - component: {fileID: 523017455}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11540,7 +11583,7 @@ GameObject:
   - component: {fileID: 527477856}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11691,7 +11734,7 @@ GameObject:
   - component: {fileID: 535969106}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11812,7 +11855,7 @@ GameObject:
   - component: {fileID: 543322109}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11933,7 +11976,7 @@ GameObject:
   - component: {fileID: 544924814}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12054,7 +12097,7 @@ GameObject:
   - component: {fileID: 550590745}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12161,36 +12204,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &558901285
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 558901286}
-  m_Layer: 0
-  m_Name: inky_waypoint7
-  m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &558901286
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558901285}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 66.41333, y: 16.07991, z: 1899.1536}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1043513755}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &577115450
 GameObject:
   m_ObjectHideFlags: 0
@@ -12205,7 +12218,7 @@ GameObject:
   - component: {fileID: 577115451}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12356,7 +12369,7 @@ GameObject:
   - component: {fileID: 580984855}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12477,7 +12490,7 @@ GameObject:
   - component: {fileID: 582123782}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12598,7 +12611,7 @@ GameObject:
   - component: {fileID: 584605974}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12719,7 +12732,7 @@ GameObject:
   - component: {fileID: 586434693}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12840,7 +12853,7 @@ GameObject:
   - component: {fileID: 593858756}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12961,7 +12974,7 @@ GameObject:
   - component: {fileID: 595423908}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13082,7 +13095,7 @@ GameObject:
   - component: {fileID: 595615307}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13203,7 +13216,7 @@ GameObject:
   - component: {fileID: 605901730}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13324,7 +13337,7 @@ GameObject:
   - component: {fileID: 610282532}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13431,6 +13444,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 106
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &610364403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 610364404}
+  m_Layer: 0
+  m_Name: clyde_waypoint13
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &610364404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610364403}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -37.47, y: -59.74, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &615333645
 GameObject:
   m_ObjectHideFlags: 0
@@ -13445,7 +13488,7 @@ GameObject:
   - component: {fileID: 615333646}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13566,7 +13609,7 @@ GameObject:
   - component: {fileID: 622133690}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13687,7 +13730,7 @@ GameObject:
   - component: {fileID: 630872820}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13808,7 +13851,7 @@ GameObject:
   - component: {fileID: 630907913}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13929,7 +13972,7 @@ GameObject:
   - component: {fileID: 633453717}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14050,7 +14093,7 @@ GameObject:
   - component: {fileID: 641720034}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14171,7 +14214,7 @@ GameObject:
   - component: {fileID: 642481487}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14292,7 +14335,7 @@ GameObject:
   - component: {fileID: 645365089}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14399,6 +14442,66 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &647803881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 647803882}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint15
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &647803882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647803881}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 58.43, y: -8, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &653213171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 653213172}
+  m_Layer: 0
+  m_Name: clyde_waypoint9
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &653213172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653213171}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 54.5, y: -59.9, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &661966226
 GameObject:
   m_ObjectHideFlags: 0
@@ -14413,7 +14516,7 @@ GameObject:
   - component: {fileID: 661966227}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14534,7 +14637,7 @@ GameObject:
   - component: {fileID: 668636366}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14655,7 +14758,7 @@ GameObject:
   - component: {fileID: 677392807}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14776,7 +14879,7 @@ GameObject:
   - component: {fileID: 679356110}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14897,7 +15000,7 @@ GameObject:
   - component: {fileID: 681590268}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15018,7 +15121,7 @@ GameObject:
   - component: {fileID: 691663441}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15139,7 +15242,7 @@ GameObject:
   - component: {fileID: 697078819}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15246,36 +15349,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 150
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &707714914
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 707714915}
-  m_Layer: 0
-  m_Name: inky_waypoint6
-  m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &707714915
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707714914}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 66.41333, y: 40.07991, z: 1899.1536}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1043513755}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &710124137
 GameObject:
   m_ObjectHideFlags: 0
@@ -15290,7 +15363,7 @@ GameObject:
   - component: {fileID: 710124138}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15411,7 +15484,7 @@ GameObject:
   - component: {fileID: 718142396}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15518,36 +15591,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 131
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &723048292
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 723048293}
-  m_Layer: 0
-  m_Name: clyde_waypoint11
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &723048293
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 723048292}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.254074, y: -35.85473, z: 3.1912842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &724400367
 GameObject:
   m_ObjectHideFlags: 0
@@ -15562,7 +15605,7 @@ GameObject:
   - component: {fileID: 724400368}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15683,7 +15726,7 @@ GameObject:
   - component: {fileID: 729872542}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15804,7 +15847,7 @@ GameObject:
   - component: {fileID: 736184444}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15925,7 +15968,7 @@ GameObject:
   - component: {fileID: 736832578}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16032,36 +16075,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 320
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &740928308
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 740928309}
-  m_Layer: 0
-  m_Name: clyde_waypoint2
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &740928309
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 740928308}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.745926, y: -23.854729, z: 3.1912842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &745493655
 GameObject:
   m_ObjectHideFlags: 0
@@ -16076,7 +16089,7 @@ GameObject:
   - component: {fileID: 745493656}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16197,7 +16210,7 @@ GameObject:
   - component: {fileID: 754005945}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16318,7 +16331,7 @@ GameObject:
   - component: {fileID: 754145598}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16439,7 +16452,7 @@ GameObject:
   - component: {fileID: 755824144}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16560,7 +16573,7 @@ GameObject:
   - component: {fileID: 756892220}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16667,6 +16680,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 262
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &757634446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 757634447}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint23
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &757634447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757634446}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 34.4, y: 12.11, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &764656577
 GameObject:
   m_ObjectHideFlags: 0
@@ -16681,7 +16724,7 @@ GameObject:
   - component: {fileID: 764656578}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16788,6 +16831,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &765393932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 765393933}
+  m_Layer: 0
+  m_Name: inky_waypoint4
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &765393933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765393932}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 66.41, y: 40.07991, z: 1899.1536}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1043513755}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &765742624
 GameObject:
   m_ObjectHideFlags: 0
@@ -16802,7 +16875,7 @@ GameObject:
   - component: {fileID: 765742625}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16923,7 +16996,7 @@ GameObject:
   - component: {fileID: 773705659}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17030,6 +17103,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &775417033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 775417034}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint9
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &775417034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775417033}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -25.57, y: -47.96, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &781371223
 GameObject:
   m_ObjectHideFlags: 0
@@ -17044,7 +17147,7 @@ GameObject:
   - component: {fileID: 781371224}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17165,7 +17268,7 @@ GameObject:
   - component: {fileID: 786687179}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17286,7 +17389,7 @@ GameObject:
   - component: {fileID: 808114804}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17407,7 +17510,7 @@ GameObject:
   - component: {fileID: 810845797}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17514,36 +17617,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 110
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &813739662
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 813739663}
-  m_Layer: 0
-  m_Name: inky_waypoint9
-  m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &813739663
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 813739662}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.413334, y: -3.9200897, z: 1899.1536}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1043513755}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &816697046
 GameObject:
   m_ObjectHideFlags: 0
@@ -17558,7 +17631,7 @@ GameObject:
   - component: {fileID: 816697047}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17679,7 +17752,7 @@ GameObject:
   - component: {fileID: 823403296}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17800,7 +17873,7 @@ GameObject:
   - component: {fileID: 833046792}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17921,7 +17994,7 @@ GameObject:
   - component: {fileID: 837480273}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18028,6 +18101,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &838515145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 838515146}
+  m_Layer: 0
+  m_Name: clyde_waypoint5
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &838515146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838515145}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.52, y: -35.83, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &839033705
 GameObject:
   m_ObjectHideFlags: 0
@@ -18042,7 +18145,7 @@ GameObject:
   - component: {fileID: 839033706}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18163,7 +18266,7 @@ GameObject:
   - component: {fileID: 845588979}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18270,36 +18373,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 184
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &846294153
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 846294154}
-  m_Layer: 0
-  m_Name: inky_waypoint11
-  m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &846294154
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846294153}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.413334, y: 12.07991, z: 1899.1536}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1043513755}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &848928141
 GameObject:
   m_ObjectHideFlags: 0
@@ -18314,7 +18387,7 @@ GameObject:
   - component: {fileID: 848928142}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18435,7 +18508,7 @@ GameObject:
   - component: {fileID: 852600199}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18556,7 +18629,7 @@ GameObject:
   - component: {fileID: 853018345}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18663,7 +18736,7 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &853369330
+--- !u!1 &858613887
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18671,27 +18744,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 853369331}
+  - component: {fileID: 858613888}
   m_Layer: 0
-  m_Name: clyde_waypoint9
+  m_Name: inky_waypoint12
   m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &853369331
+--- !u!4 &858613888
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 853369330}
+  m_GameObject: {fileID: 858613887}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.254074, y: -47.85473, z: 3.1912842}
+  m_LocalPosition: {x: 34.413334, y: 12.07, z: 1899.1536}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 10
+  m_Father: {fileID: 1043513755}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &864184528
 GameObject:
@@ -18707,7 +18780,7 @@ GameObject:
   - component: {fileID: 864184529}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18828,7 +18901,7 @@ GameObject:
   - component: {fileID: 868257635}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18935,36 +19008,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 172
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &868742171
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 868742172}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint10
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &868742172
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868742171}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.413334, y: -35.92009, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &872763695
 GameObject:
   m_ObjectHideFlags: 0
@@ -18979,7 +19022,7 @@ GameObject:
   - component: {fileID: 872763696}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19100,7 +19143,7 @@ GameObject:
   - component: {fileID: 873915969}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19221,7 +19264,7 @@ GameObject:
   - component: {fileID: 874196459}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19328,6 +19371,66 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 183
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &875816751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 875816752}
+  m_Layer: 0
+  m_Name: clyde_waypoint12
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &875816752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875816751}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -45.3, y: -59.74, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &877240409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 877240410}
+  m_Layer: 0
+  m_Name: inky_waypoint9
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &877240410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877240409}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.61, y: -11.93, z: 1899.1536}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1043513755}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &877772896
 GameObject:
   m_ObjectHideFlags: 0
@@ -19342,7 +19445,7 @@ GameObject:
   - component: {fileID: 877772897}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19463,7 +19566,7 @@ GameObject:
   - component: {fileID: 880456053}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19584,7 +19687,7 @@ GameObject:
   - component: {fileID: 884530058}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19705,7 +19808,7 @@ GameObject:
   - component: {fileID: 885373596}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19826,7 +19929,7 @@ GameObject:
   - component: {fileID: 886109861}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19933,66 +20036,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 125
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &889360518
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 889360519}
-  m_Layer: 0
-  m_Name: clyde_waypoint12
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &889360519
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889360518}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.254074, y: -35.85473, z: 3.1912842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &890873026
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 890873027}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint22
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &890873027
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890873026}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.413334, y: 16.07991, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 23
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &892134823
 GameObject:
   m_ObjectHideFlags: 0
@@ -20007,7 +20050,7 @@ GameObject:
   - component: {fileID: 892134824}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20128,7 +20171,7 @@ GameObject:
   - component: {fileID: 893929164}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20249,7 +20292,7 @@ GameObject:
   - component: {fileID: 897421738}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20370,7 +20413,7 @@ GameObject:
   - component: {fileID: 900256891}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20491,7 +20534,7 @@ GameObject:
   - component: {fileID: 902045199}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20598,6 +20641,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 198
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &906290889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906290890}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint10
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &906290890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906290889}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -33.58, y: -47.96, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &940905346
 GameObject:
   m_ObjectHideFlags: 0
@@ -20612,7 +20685,7 @@ GameObject:
   - component: {fileID: 940905347}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20719,66 +20792,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &942622962
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 942622963}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint19
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &942622963
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942622962}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 66.41333, y: -7.9200897, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &944224173
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 944224174}
-  m_Layer: 0
-  m_Name: clyde_waypoint3
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &944224174
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 944224173}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.745926, y: -23.854729, z: 3.1912842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &951760197
 GameObject:
   m_ObjectHideFlags: 0
@@ -20793,7 +20806,7 @@ GameObject:
   - component: {fileID: 951760198}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20914,7 +20927,7 @@ GameObject:
   - component: {fileID: 961359397}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21035,7 +21048,7 @@ GameObject:
   - component: {fileID: 986609346}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21156,7 +21169,7 @@ GameObject:
   - component: {fileID: 988378170}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21277,7 +21290,7 @@ GameObject:
   - component: {fileID: 992163175}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21398,7 +21411,7 @@ GameObject:
   - component: {fileID: 996447856}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21505,36 +21518,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 195
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1008343778
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1008343779}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint24
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1008343779
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1008343778}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 54.413334, y: 28.07991, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 25
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1014743514
 GameObject:
   m_ObjectHideFlags: 0
@@ -21549,7 +21532,7 @@ GameObject:
   - component: {fileID: 1014743515}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21670,7 +21653,7 @@ GameObject:
   - component: {fileID: 1021621092}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21896,22 +21879,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypoints:
   - {fileID: 350276515}
-  - {fileID: 96075834}
-  - {fileID: 740928309}
-  - {fileID: 944224174}
-  - {fileID: 75097251}
-  - {fileID: 1839044262}
-  - {fileID: 1156787849}
-  - {fileID: 1442678282}
-  - {fileID: 377800902}
-  - {fileID: 853369331}
-  - {fileID: 1778957330}
-  - {fileID: 723048293}
-  - {fileID: 889360519}
-  - {fileID: 1923904459}
-  - {fileID: 1829974424}
-  - {fileID: 75954731}
-  - {fileID: 1386931432}
+  - {fileID: 38526572}
+  - {fileID: 1616678587}
+  - {fileID: 1760598108}
+  - {fileID: 1914709378}
+  - {fileID: 838515146}
+  - {fileID: 326823662}
+  - {fileID: 138389733}
+  - {fileID: 32025502}
+  - {fileID: 653213172}
+  - {fileID: 127068266}
+  - {fileID: 181750301}
+  - {fileID: 875816752}
+  - {fileID: 610364404}
+  - {fileID: 1682271299}
+  - {fileID: 1539248110}
+  - {fileID: 1869007578}
+  - {fileID: 1500383290}
+  - {fileID: 1102453529}
   speed: 0.5
 --- !u!50 &1027853586
 Rigidbody2D:
@@ -21964,7 +21949,7 @@ GameObject:
   - component: {fileID: 1037248845}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22071,6 +22056,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 154
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1039104207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1039104208}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint14
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1039104208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039104207}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 58.43, y: -47.96, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1040224370
 GameObject:
   m_ObjectHideFlags: 0
@@ -22085,7 +22100,7 @@ GameObject:
   - component: {fileID: 1040224371}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22206,7 +22221,7 @@ GameObject:
   - component: {fileID: 1041822838}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22345,14 +22360,16 @@ Transform:
   - {fileID: 1105230537}
   - {fileID: 1597225110}
   - {fileID: 1095898546}
-  - {fileID: 1926409516}
-  - {fileID: 1276870092}
-  - {fileID: 707714915}
-  - {fileID: 558901286}
-  - {fileID: 1927187117}
-  - {fileID: 813739663}
-  - {fileID: 1154282314}
-  - {fileID: 846294154}
+  - {fileID: 765393933}
+  - {fileID: 1779067404}
+  - {fileID: 4085525}
+  - {fileID: 36991428}
+  - {fileID: 72616154}
+  - {fileID: 1159692246}
+  - {fileID: 877240410}
+  - {fileID: 1422717730}
+  - {fileID: 485886180}
+  - {fileID: 858613888}
   m_Father: {fileID: 60156431}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22370,7 +22387,7 @@ GameObject:
   - component: {fileID: 1052307515}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22491,7 +22508,7 @@ GameObject:
   - component: {fileID: 1054699296}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22598,36 +22615,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 306
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1058360187
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1058360188}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint8
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1058360188
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1058360187}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.413334, y: -23.92009, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1058366382
 GameObject:
   m_ObjectHideFlags: 0
@@ -22642,7 +22629,7 @@ GameObject:
   - component: {fileID: 1058366383}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22847,7 +22834,7 @@ GameObject:
   - component: {fileID: 1082164747}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22954,6 +22941,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 279
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1083713686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1083713687}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint21
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1083713687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083713686}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 54.31, y: 28.04, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1088919232
 GameObject:
   m_ObjectHideFlags: 0
@@ -22968,7 +22985,7 @@ GameObject:
   - component: {fileID: 1088919233}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23179,7 +23196,7 @@ GameObject:
   - component: {fileID: 1101858698}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23300,7 +23317,7 @@ GameObject:
   - component: {fileID: 1102037656}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23407,7 +23424,7 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 230
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1105111934
+--- !u!1 &1102453528
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23415,27 +23432,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1105111935}
+  - component: {fileID: 1102453529}
   m_Layer: 0
-  m_Name: Pinky_Waypoint14
+  m_Name: clyde_waypoint18
   m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1105111935
+--- !u!4 &1102453529
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1105111934}
+  m_GameObject: {fileID: 1102453528}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 66.41333, y: -59.92009, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_LocalPosition: {x: -13.26, y: 0.22, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 15
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1105125359
 GameObject:
@@ -23451,7 +23468,7 @@ GameObject:
   - component: {fileID: 1105125360}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23602,7 +23619,7 @@ GameObject:
   - component: {fileID: 1109272823}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23738,22 +23755,24 @@ Transform:
   m_Children:
   - {fileID: 1027853584}
   - {fileID: 350276515}
-  - {fileID: 96075834}
-  - {fileID: 740928309}
-  - {fileID: 944224174}
-  - {fileID: 75097251}
-  - {fileID: 1839044262}
-  - {fileID: 1156787849}
-  - {fileID: 1442678282}
-  - {fileID: 377800902}
-  - {fileID: 853369331}
-  - {fileID: 1778957330}
-  - {fileID: 723048293}
-  - {fileID: 889360519}
-  - {fileID: 1923904459}
-  - {fileID: 1829974424}
-  - {fileID: 75954731}
-  - {fileID: 1386931432}
+  - {fileID: 38526572}
+  - {fileID: 1616678587}
+  - {fileID: 1760598108}
+  - {fileID: 1914709378}
+  - {fileID: 838515146}
+  - {fileID: 326823662}
+  - {fileID: 138389733}
+  - {fileID: 32025502}
+  - {fileID: 653213172}
+  - {fileID: 127068266}
+  - {fileID: 181750301}
+  - {fileID: 875816752}
+  - {fileID: 610364404}
+  - {fileID: 1682271299}
+  - {fileID: 1539248110}
+  - {fileID: 1869007578}
+  - {fileID: 1500383290}
+  - {fileID: 1102453529}
   m_Father: {fileID: 60156431}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23771,7 +23790,7 @@ GameObject:
   - component: {fileID: 1129039078}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23892,7 +23911,7 @@ GameObject:
   - component: {fileID: 1132002208}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24013,7 +24032,7 @@ GameObject:
   - component: {fileID: 1137718255}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24134,7 +24153,7 @@ GameObject:
   - component: {fileID: 1138008992}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24255,7 +24274,7 @@ GameObject:
   - component: {fileID: 1147800097}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24376,7 +24395,7 @@ GameObject:
   - component: {fileID: 1149361721}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24497,7 +24516,7 @@ GameObject:
   - component: {fileID: 1150980219}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24604,36 +24623,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 130
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1154282313
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1154282314}
-  m_Layer: 0
-  m_Name: inky_waypoint10
-  m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1154282314
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154282313}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.413334, y: -3.9200897, z: 1899.1536}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1043513755}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1155868921
 GameObject:
   m_ObjectHideFlags: 0
@@ -24648,7 +24637,7 @@ GameObject:
   - component: {fileID: 1155868922}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24755,7 +24744,7 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 166
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1156787848
+--- !u!1 &1159692245
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24763,27 +24752,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1156787849}
+  - component: {fileID: 1159692246}
   m_Layer: 0
-  m_Name: clyde_waypoint6
+  m_Name: inky_waypoint8
   m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1156787849
+--- !u!4 &1159692246
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1156787848}
+  m_GameObject: {fileID: 1159692245}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.254074, y: -47.85473, z: 3.1912842}
+  m_LocalPosition: {x: 26.25, y: -11.93, z: 1899.1536}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 7
+  m_Father: {fileID: 1043513755}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1167299045
 GameObject:
@@ -24799,7 +24788,7 @@ GameObject:
   - component: {fileID: 1167299046}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24920,7 +24909,7 @@ GameObject:
   - component: {fileID: 1176049554}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25041,7 +25030,7 @@ GameObject:
   - component: {fileID: 1180054810}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25162,7 +25151,7 @@ GameObject:
   - component: {fileID: 1181647729}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26939,7 +26928,7 @@ GameObject:
   - component: {fileID: 1201111657}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27060,7 +27049,7 @@ GameObject:
   - component: {fileID: 1201153032}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27181,7 +27170,7 @@ GameObject:
   - component: {fileID: 1202605751}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27302,7 +27291,7 @@ GameObject:
   - component: {fileID: 1203319895}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27423,7 +27412,7 @@ GameObject:
   - component: {fileID: 1203341799}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27544,7 +27533,7 @@ GameObject:
   - component: {fileID: 1219702958}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27665,7 +27654,7 @@ GameObject:
   - component: {fileID: 1224262258}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27786,7 +27775,7 @@ GameObject:
   - component: {fileID: 1232608123}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27907,7 +27896,7 @@ GameObject:
   - component: {fileID: 1248133617}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28028,7 +28017,7 @@ GameObject:
   - component: {fileID: 1250437336}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28135,7 +28124,7 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 239
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1250721025
+--- !u!1 &1272765475
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -28143,27 +28132,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1250721026}
+  - component: {fileID: 1272765476}
   m_Layer: 0
-  m_Name: Pinky_Waypoint17
+  m_Name: Pinky_Waypoint8
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1250721026
+--- !u!4 &1272765476
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250721025}
+  m_GameObject: {fileID: 1272765475}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 58.413334, y: -23.92009, z: 1899.1536}
+  m_LocalPosition: {x: -25.6, y: -23.92009, z: 1899.1536}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 483147405}
-  m_RootOrder: 18
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1273428723
 GameObject:
@@ -28179,7 +28168,7 @@ GameObject:
   - component: {fileID: 1273428724}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28286,66 +28275,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1276870091
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1276870092}
-  m_Layer: 0
-  m_Name: inky_waypoint5
-  m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1276870092
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1276870091}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 78.41333, y: 52.07991, z: 1899.1536}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1043513755}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1278293992
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1278293993}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint20
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1278293993
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278293992}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 66.41333, y: 4.0799103, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1282891511
 GameObject:
   m_ObjectHideFlags: 0
@@ -28360,7 +28289,7 @@ GameObject:
   - component: {fileID: 1282891512}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28481,7 +28410,7 @@ GameObject:
   - component: {fileID: 1283524945}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28602,7 +28531,7 @@ GameObject:
   - component: {fileID: 1292524834}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28723,7 +28652,7 @@ GameObject:
   - component: {fileID: 1292795022}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28830,6 +28759,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1298317560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1298317561}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint12
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1298317561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298317560}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 66.41, y: -60.01, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1301395506
 GameObject:
   m_ObjectHideFlags: 0
@@ -28844,7 +28803,7 @@ GameObject:
   - component: {fileID: 1301395507}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28965,7 +28924,7 @@ GameObject:
   - component: {fileID: 1311576422}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29086,7 +29045,7 @@ GameObject:
   - component: {fileID: 1314447760}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29207,7 +29166,7 @@ GameObject:
   - component: {fileID: 1317316695}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29358,7 +29317,7 @@ GameObject:
   - component: {fileID: 1321395306}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29509,7 +29468,7 @@ GameObject:
   - component: {fileID: 1328853771}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29630,7 +29589,7 @@ GameObject:
   - component: {fileID: 1335372870}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29751,7 +29710,7 @@ GameObject:
   - component: {fileID: 1352270986}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29872,7 +29831,7 @@ GameObject:
   - component: {fileID: 1356104805}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29993,7 +29952,7 @@ GameObject:
   - component: {fileID: 1359933102}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30114,7 +30073,7 @@ GameObject:
   - component: {fileID: 1360988850}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30235,7 +30194,7 @@ GameObject:
   - component: {fileID: 1362678794}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30342,6 +30301,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 240
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1366777990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1366777991}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint19
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1366777991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366777990}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 46.38, y: 16.06, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1369139798
 GameObject:
   m_ObjectHideFlags: 0
@@ -30356,7 +30345,7 @@ GameObject:
   - component: {fileID: 1369139799}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30477,7 +30466,7 @@ GameObject:
   - component: {fileID: 1380743935}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30598,7 +30587,7 @@ GameObject:
   - component: {fileID: 1382427768}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30705,36 +30694,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 263
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1386931431
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1386931432}
-  m_Layer: 0
-  m_Name: clyde_waypoint16
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1386931432
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1386931431}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.254074, y: 0.1452713, z: 3.1912842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1395138400
 GameObject:
   m_ObjectHideFlags: 0
@@ -30749,7 +30708,7 @@ GameObject:
   - component: {fileID: 1395138401}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30870,7 +30829,7 @@ GameObject:
   - component: {fileID: 1396236359}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30977,6 +30936,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 265
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1404761085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1404761086}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint20
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1404761086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404761085}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 54.31, y: 16.06, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1405145842
 GameObject:
   m_ObjectHideFlags: 0
@@ -31021,7 +31010,7 @@ GameObject:
   - component: {fileID: 1411107996}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31128,6 +31117,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 129
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1422717729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1422717730}
+  m_Layer: 0
+  m_Name: inky_waypoint10
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1422717730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422717729}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.61, y: 52.1, z: 1899.1536}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1043513755}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1428807093
 GameObject:
   m_ObjectHideFlags: 0
@@ -31142,7 +31161,7 @@ GameObject:
   - component: {fileID: 1428807094}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31263,7 +31282,7 @@ GameObject:
   - component: {fileID: 1430104323}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31370,36 +31389,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1442678281
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1442678282}
-  m_Layer: 0
-  m_Name: clyde_waypoint7
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1442678282
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1442678281}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.254074, y: -59.85473, z: 3.1912842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1443456009
 GameObject:
   m_ObjectHideFlags: 0
@@ -31414,7 +31403,7 @@ GameObject:
   - component: {fileID: 1443456010}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31535,7 +31524,7 @@ GameObject:
   - component: {fileID: 1456508803}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31656,7 +31645,7 @@ GameObject:
   - component: {fileID: 1481014148}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31777,7 +31766,7 @@ GameObject:
   - component: {fileID: 1483131601}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31898,7 +31887,7 @@ GameObject:
   - component: {fileID: 1485254805}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32049,7 +32038,7 @@ GameObject:
   - component: {fileID: 1489759337}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32170,7 +32159,7 @@ GameObject:
   - component: {fileID: 1490471933}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32321,7 +32310,7 @@ GameObject:
   - component: {fileID: 1495670651}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32442,7 +32431,7 @@ GameObject:
   - component: {fileID: 1498789178}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32548,6 +32537,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1182928943}
   m_RootOrder: 54
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1500383289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1500383290}
+  m_Layer: 0
+  m_Name: clyde_waypoint17
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1500383290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500383289}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.26, y: -23.89, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1505136147
 GameObject:
@@ -32671,16 +32690,17 @@ MonoBehaviour:
   - {fileID: 1105230537}
   - {fileID: 1597225110}
   - {fileID: 1095898546}
-  - {fileID: 1926409516}
-  - {fileID: 1276870092}
-  - {fileID: 1926409516}
-  - {fileID: 1095898546}
-  - {fileID: 707714915}
-  - {fileID: 558901286}
-  - {fileID: 1927187117}
-  - {fileID: 813739663}
-  - {fileID: 1154282314}
-  - {fileID: 846294154}
+  - {fileID: 765393933}
+  - {fileID: 1779067404}
+  - {fileID: 4085525}
+  - {fileID: 36991428}
+  - {fileID: 72616154}
+  - {fileID: 1159692246}
+  - {fileID: 877240410}
+  - {fileID: 1422717730}
+  - {fileID: 485886180}
+  - {fileID: 1597225110}
+  - {fileID: 858613888}
   speed: 0.5
 --- !u!50 &1505136152
 Rigidbody2D:
@@ -32733,7 +32753,7 @@ GameObject:
   - component: {fileID: 1518199332}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32854,7 +32874,7 @@ GameObject:
   - component: {fileID: 1527405188}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32991,6 +33011,36 @@ Transform:
   m_Father: {fileID: 1956791937}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1539248109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1539248110}
+  m_Layer: 0
+  m_Name: clyde_waypoint15
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1539248110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539248109}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.6, y: -35.89, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1546560423
 GameObject:
   m_ObjectHideFlags: 0
@@ -33071,7 +33121,7 @@ GameObject:
   - component: {fileID: 1557440569}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33192,7 +33242,7 @@ GameObject:
   - component: {fileID: 1558052220}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33358,7 +33408,7 @@ GameObject:
   - component: {fileID: 1574653254}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33479,7 +33529,7 @@ GameObject:
   - component: {fileID: 1580173582}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33600,7 +33650,7 @@ GameObject:
   - component: {fileID: 1594932512}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33751,7 +33801,7 @@ GameObject:
   - component: {fileID: 1599781180}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33872,7 +33922,7 @@ GameObject:
   - component: {fileID: 1603430643}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33979,6 +34029,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 285
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1616678586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1616678587}
+  m_Layer: 0
+  m_Name: clyde_waypoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1616678587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616678586}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.74, y: -15.83, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1620925257
 GameObject:
   m_ObjectHideFlags: 0
@@ -33993,7 +34073,7 @@ GameObject:
   - component: {fileID: 1620925258}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34114,7 +34194,7 @@ GameObject:
   - component: {fileID: 1624303899}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34235,7 +34315,7 @@ GameObject:
   - component: {fileID: 1630463292}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34422,7 +34502,7 @@ GameObject:
   - component: {fileID: 1642137841}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34543,7 +34623,7 @@ GameObject:
   - component: {fileID: 1642727531}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34664,7 +34744,7 @@ GameObject:
   - component: {fileID: 1642994311}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34785,7 +34865,7 @@ GameObject:
   - component: {fileID: 1644053286}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34906,7 +34986,7 @@ GameObject:
   - component: {fileID: 1645176512}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35027,7 +35107,7 @@ GameObject:
   - component: {fileID: 1650133137}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35134,6 +35214,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 304
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1663084322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1663084323}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint18
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1663084323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663084322}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 46.38, y: 3.84, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1667739599
 GameObject:
   m_ObjectHideFlags: 0
@@ -35148,7 +35258,7 @@ GameObject:
   - component: {fileID: 1667739600}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35255,36 +35365,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1670845191
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1670845192}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint16
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1670845192
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670845191}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 58.413334, y: -47.92009, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1671345300
 GameObject:
   m_ObjectHideFlags: 0
@@ -35299,7 +35379,7 @@ GameObject:
   - component: {fileID: 1671345301}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35420,7 +35500,7 @@ GameObject:
   - component: {fileID: 1678530281}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35541,7 +35621,7 @@ GameObject:
   - component: {fileID: 1678760593}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35648,6 +35728,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1682271298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1682271299}
+  m_Layer: 0
+  m_Name: clyde_waypoint14
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1682271299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682271298}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -37.47, y: -35.89, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1684675483
 GameObject:
   m_ObjectHideFlags: 0
@@ -35662,7 +35772,7 @@ GameObject:
   - component: {fileID: 1684675484}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35783,7 +35893,7 @@ GameObject:
   - component: {fileID: 1691922885}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35904,7 +36014,7 @@ GameObject:
   - component: {fileID: 1698373675}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36055,7 +36165,7 @@ GameObject:
   - component: {fileID: 1712497971}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36176,7 +36286,7 @@ GameObject:
   - component: {fileID: 1718331532}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36297,7 +36407,7 @@ GameObject:
   - component: {fileID: 1722676730}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36418,7 +36528,7 @@ GameObject:
   - component: {fileID: 1727916055}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36539,7 +36649,7 @@ GameObject:
   - component: {fileID: 1739774718}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36660,7 +36770,7 @@ GameObject:
   - component: {fileID: 1740444046}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36781,7 +36891,7 @@ GameObject:
   - component: {fileID: 1744422065}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36902,7 +37012,7 @@ GameObject:
   - component: {fileID: 1750625029}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37023,7 +37133,7 @@ GameObject:
   - component: {fileID: 1752825072}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37144,7 +37254,7 @@ GameObject:
   - component: {fileID: 1757249347}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37265,7 +37375,7 @@ GameObject:
   - component: {fileID: 1759693133}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37386,7 +37496,7 @@ GameObject:
   - component: {fileID: 1760416264}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37493,6 +37603,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 157
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1760598107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1760598108}
+  m_Layer: 0
+  m_Name: clyde_waypoint3
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1760598108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760598107}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.74, y: -23.9, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1771550616
 GameObject:
   m_ObjectHideFlags: 0
@@ -37507,7 +37647,7 @@ GameObject:
   - component: {fileID: 1771550617}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37628,7 +37768,7 @@ GameObject:
   - component: {fileID: 1778379842}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37735,7 +37875,7 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 227
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1778957329
+--- !u!1 &1779067403
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37743,27 +37883,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1778957330}
+  - component: {fileID: 1779067404}
   m_Layer: 0
-  m_Name: clyde_waypoint10
+  m_Name: inky_waypoint5
   m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1778957330
+--- !u!4 &1779067404
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778957329}
+  m_GameObject: {fileID: 1779067403}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.254074, y: -47.85473, z: 3.1912842}
+  m_LocalPosition: {x: 66.41, y: 16.03, z: 1899.1536}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 11
+  m_Father: {fileID: 1043513755}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1788115742
 GameObject:
@@ -37779,7 +37919,7 @@ GameObject:
   - component: {fileID: 1788115743}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37900,7 +38040,7 @@ GameObject:
   - component: {fileID: 1803824818}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38021,7 +38161,7 @@ GameObject:
   - component: {fileID: 1815228459}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38128,36 +38268,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1818137592
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1818137593}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint21
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1818137593
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818137592}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.413334, y: 4.0799103, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1829054878
 GameObject:
   m_ObjectHideFlags: 0
@@ -38172,7 +38282,7 @@ GameObject:
   - component: {fileID: 1829054879}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38279,36 +38389,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1829974423
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1829974424}
-  m_Layer: 0
-  m_Name: clyde_waypoint14
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1829974424
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1829974423}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.254074, y: -23.854729, z: 3.1912842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1832893678
 GameObject:
   m_ObjectHideFlags: 0
@@ -38323,7 +38403,7 @@ GameObject:
   - component: {fileID: 1832893679}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38430,36 +38510,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1839044261
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1839044262}
-  m_Layer: 0
-  m_Name: clyde_waypoint5
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1839044262
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839044261}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.254074, y: -47.85473, z: 3.1912842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1856923532
 GameObject:
   m_ObjectHideFlags: 0
@@ -38474,7 +38524,7 @@ GameObject:
   - component: {fileID: 1856923533}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38595,7 +38645,7 @@ GameObject:
   - component: {fileID: 1857738676}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38716,7 +38766,7 @@ GameObject:
   - component: {fileID: 1859737135}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38837,7 +38887,7 @@ GameObject:
   - component: {fileID: 1860752236}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38943,6 +38993,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1182928943}
   m_RootOrder: 208
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1869007577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1869007578}
+  m_Layer: 0
+  m_Name: clyde_waypoint16
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1869007578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869007577}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.27, y: -23.99, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1876538644
 GameObject:
@@ -39074,36 +39154,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1893890076
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1893890077}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint25
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1893890077
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1893890076}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.413334, y: 28.07991, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 26
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1894807122
 GameObject:
   m_ObjectHideFlags: 0
@@ -39118,7 +39168,7 @@ GameObject:
   - component: {fileID: 1894807123}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39239,7 +39289,7 @@ GameObject:
   - component: {fileID: 1899312672}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39360,7 +39410,7 @@ GameObject:
   - component: {fileID: 1900133840}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39467,6 +39517,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1914709377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1914709378}
+  m_Layer: 0
+  m_Name: clyde_waypoint4
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1914709378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914709377}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.52, y: -23.9, z: 3.1912842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1115548073}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1917369440
 GameObject:
   m_ObjectHideFlags: 0
@@ -39481,7 +39561,7 @@ GameObject:
   - component: {fileID: 1917369441}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39588,96 +39668,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 173
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1923904458
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1923904459}
-  m_Layer: 0
-  m_Name: clyde_waypoint13
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1923904459
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923904458}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.254074, y: -35.85473, z: 3.1912842}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1115548073}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1926409515
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1926409516}
-  m_Layer: 0
-  m_Name: inky_waypoint4
-  m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1926409516
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926409515}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.413334, y: 52.07991, z: 1899.1536}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1043513755}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1927187116
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1927187117}
-  m_Layer: 0
-  m_Name: inky_waypoint8
-  m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1927187117
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1927187116}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.413334, y: 16.07991, z: 1899.1536}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1043513755}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1937962782
 GameObject:
   m_ObjectHideFlags: 0
@@ -39692,7 +39682,7 @@ GameObject:
   - component: {fileID: 1937962783}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39813,7 +39803,7 @@ GameObject:
   - component: {fileID: 1940831484}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39934,7 +39924,7 @@ GameObject:
   - component: {fileID: 1942847931}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40041,6 +40031,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 297
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1951879605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1951879606}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint13
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1951879606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951879605}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 66.41, y: -47.96, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1956606596
 GameObject:
   m_ObjectHideFlags: 0
@@ -40055,7 +40075,7 @@ GameObject:
   - component: {fileID: 1956606597}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40223,12 +40243,12 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   pacman: {fileID: 0}
-  pacdots: []
   blinky: {fileID: 0}
   pinky: {fileID: 0}
   inky: {fileID: 0}
   clyde: {fileID: 0}
   speed: 1
+  contatore: 0
 --- !u!114 &1960086153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40242,8 +40262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 1
-    NumStackedVectorObservations: 50
+    VectorObservationSize: 3
+    NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 0
       BranchSizes: 05000000
@@ -40287,7 +40307,7 @@ GameObject:
   - component: {fileID: 1964394129}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40408,7 +40428,7 @@ GameObject:
   - component: {fileID: 1965643529}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40529,7 +40549,7 @@ GameObject:
   - component: {fileID: 1973497780}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40650,7 +40670,7 @@ GameObject:
   - component: {fileID: 1975924615}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40801,7 +40821,7 @@ GameObject:
   - component: {fileID: 1991556870}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41000,7 +41020,7 @@ GameObject:
   - component: {fileID: 2002570236}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41121,7 +41141,7 @@ GameObject:
   - component: {fileID: 2003805451}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41242,7 +41262,7 @@ GameObject:
   - component: {fileID: 2006362124}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41363,7 +41383,7 @@ GameObject:
   - component: {fileID: 2012686475}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41484,7 +41504,7 @@ GameObject:
   - component: {fileID: 2017160257}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41591,107 +41611,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 282
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2027865958
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2027865959}
-  - component: {fileID: 2027865961}
-  - component: {fileID: 2027865960}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint23
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2027865959
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027865958}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 54.413334, y: 16.07991, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 24
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &2027865960
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027865958}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e7206ee6aa7ee9b419288883d84a2f3d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!212 &2027865961
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027865958}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &2030012710
 GameObject:
   m_ObjectHideFlags: 0
@@ -41706,7 +41625,7 @@ GameObject:
   - component: {fileID: 2030012711}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41827,7 +41746,7 @@ GameObject:
   - component: {fileID: 2031602028}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41948,7 +41867,7 @@ GameObject:
   - component: {fileID: 2033494093}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42069,7 +41988,7 @@ GameObject:
   - component: {fileID: 2040167993}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42190,7 +42109,7 @@ GameObject:
   - component: {fileID: 2051746582}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42311,7 +42230,7 @@ GameObject:
   - component: {fileID: 2052692482}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42448,36 +42367,6 @@ Transform:
   m_Father: {fileID: 483147405}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2057011602
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2057011603}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint11
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2057011603
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057011602}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.413334, y: -47.92009, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2058487945
 GameObject:
   m_ObjectHideFlags: 0
@@ -42492,7 +42381,7 @@ GameObject:
   - component: {fileID: 2058487946}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42613,7 +42502,7 @@ GameObject:
   - component: {fileID: 2059644945}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42734,7 +42623,7 @@ GameObject:
   - component: {fileID: 2064010523}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42855,7 +42744,7 @@ GameObject:
   - component: {fileID: 2069468046}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42976,7 +42865,7 @@ GameObject:
   - component: {fileID: 2074685116}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43097,7 +42986,7 @@ GameObject:
   - component: {fileID: 2080750500}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43218,7 +43107,7 @@ GameObject:
   - component: {fileID: 2081040020}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43339,7 +43228,7 @@ GameObject:
   - component: {fileID: 2081340340}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43460,7 +43349,7 @@ GameObject:
   - component: {fileID: 2091819040}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43581,7 +43470,7 @@ GameObject:
   - component: {fileID: 2091949267}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43688,36 +43577,6 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 199
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2093202931
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2093202932}
-  m_Layer: 0
-  m_Name: Pinky_Waypoint18
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2093202932
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2093202931}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 58.413334, y: -7.9200897, z: 1899.1536}
-  m_LocalScale: {x: 6, y: 6, z: 6}
-  m_Children: []
-  m_Father: {fileID: 483147405}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2098288825
 GameObject:
   m_ObjectHideFlags: 0
@@ -43732,7 +43591,7 @@ GameObject:
   - component: {fileID: 2098288826}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43839,6 +43698,36 @@ Transform:
   m_Father: {fileID: 1182928943}
   m_RootOrder: 281
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2108566693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2108566694}
+  m_Layer: 0
+  m_Name: Pinky_Waypoint22
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2108566694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108566693}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 34.4, y: 28.04, z: 1899.1536}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 483147405}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2111267543
 GameObject:
   m_ObjectHideFlags: 0
@@ -43853,7 +43742,7 @@ GameObject:
   - component: {fileID: 2111267544}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43974,7 +43863,7 @@ GameObject:
   - component: {fileID: 2112125352}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44095,7 +43984,7 @@ GameObject:
   - component: {fileID: 2113058806}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44216,7 +44105,7 @@ GameObject:
   - component: {fileID: 2122372171}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44337,7 +44226,7 @@ GameObject:
   - component: {fileID: 2147479315}
   m_Layer: 0
   m_Name: pacdot
-  m_TagString: Untagged
+  m_TagString: pacdot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
