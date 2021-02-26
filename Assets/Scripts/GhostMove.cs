@@ -4,12 +4,13 @@ using System.Collections;
 public class GhostMove : MonoBehaviour
 {
 	public Transform[] waypoints;
-	int cur = 0;
+	public int cur = 0;
 
 	public float speed = 0.3f;
-
-	void FixedUpdate()
+	
+		void FixedUpdate()
 	{
+
 		if (transform.position == waypoints[cur].position)
 		{
 			cur = (cur + 1) % waypoints.Length;
