@@ -1,0 +1,23 @@
+{
+    "PacmanMlAgent": {
+        "checkpoints": [
+            {
+                "steps": 135211,
+                "file_path": "results\\PacmanOnly_imitation_withBlinky1\\PacmanMlAgent\\PacmanMlAgent-135211.onnx",
+                "reward": null,
+                "creation_time": 1615226134.4317222
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 135211,
+            "file_path": "results\\PacmanOnly_imitation_withBlinky1\\PacmanMlAgent.onnx",
+            "reward": null,
+            "creation_time": 1615226134.4317222
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.24.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

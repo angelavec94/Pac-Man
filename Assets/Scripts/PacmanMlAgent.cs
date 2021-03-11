@@ -71,6 +71,7 @@ public class PacmanMlAgent : Agent
         pacman = GameObject.Find("pacman");
         //posizione Pacman
         pacmanPosition = pacman.transform.position;
+        Debug.Log("pacman" + pacmanPosition);
 
         blinky = GameObject.Find("blinky");
         pinky = GameObject.Find("pinky");
@@ -87,7 +88,7 @@ public class PacmanMlAgent : Agent
         rb2d = GameObject.Find("pacman").GetComponent<Rigidbody2D>();
         string str;
         //inizializzazione pacdot
-        for (int i = 0; i <= 322; i++)
+        for (int i = 0; i <= 290; i++)
         {
             str = "pacdot" + i;
             pacdot.Add(GameObject.Find(str));
@@ -116,7 +117,7 @@ public class PacmanMlAgent : Agent
 
         pacman = GameObject.Find("pacman");
         //reset posizione di Pacman
-        pacmanPosition= pacman.transform.position = new Vector3(71, 31, 0);
+        pacman.transform.position = pacmanPosition;
 
         //reset fantasmi
         if (blinky != null)
@@ -159,16 +160,6 @@ public class PacmanMlAgent : Agent
             clyde = GameObject.Find("clyde");
             clyde.transform.position= clydePosition;
         }
-
-
-        // reset pacdot
-        /*string str;
-        for (int i = 0; i <= 322; i++)
-        {
-            str = "pacdot" + i;
-            pacdot.Add(GameObject.Find(str));
-            pacdotPosition.Add(pacdot[i].transform.position);
-        }*/
 
        
         SetReward(0);
@@ -222,51 +213,34 @@ public class PacmanMlAgent : Agent
         rb2d.MovePosition(p);
         if(Mathf.FloorToInt(vectorAction[0]) == 0)
         {
-            AddReward(-0.00003f);
+            //AddReward(-0.00003f);
             Debug.Log("sto fermo");
         }
         else if (Mathf.FloorToInt(vectorAction[0]) == 1)
         {
             pacmanPosition = (Vector2)transform.position + Vector2.up;
-            AddReward(0.0002f);
+            //AddReward(0.0002f);
             Debug.Log("vado sopra");
         }
         else if (Mathf.FloorToInt(vectorAction[0]) == 2) //sotto
         {
             pacmanPosition = (Vector2)transform.position - Vector2.up;
-            AddReward(0.0002f);
+            //AddReward(0.0002f);
             Debug.Log("vado sotto");
         }
         else if (Mathf.FloorToInt(vectorAction[0]) == 3)
         {
             pacmanPosition = (Vector2)transform.position - Vector2.right;
-            AddReward(0.0002f);
+            //AddReward(0.0002f);
         }
         else if (Mathf.FloorToInt(vectorAction[0]) == 4)
         {
             pacmanPosition = (Vector2)transform.position + Vector2.right;
-            AddReward(0.0002f);
+            //AddReward(0.0002f);
         }
         Vector2 dir = pacmanPosition - (Vector2)transform.position;
        pacman.GetComponent<Animator>().SetFloat("DirX", dir.x);
        pacman.GetComponent<Animator>().SetFloat("DirY", dir.y);
-
-       
-
-        //Length of the ray
-        //float laserLength = 50f;
-       /* //Get the first object hit by the ray
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right, laserLength);
-
-       //If the collider of the object hit is not NUll
-       if (hit.collider != null)
-       {
-           //Hit something, print the tag of the object
-           Debug.Log("Hitting: " + hit.collider.gameObject.tag);
-       }
-
-       //Method to draw the ray in scene for debug purpose
-       Debug.DrawRay(transform.position, Vector2.right * laserLength, Color.red);*/
 
     }
 
@@ -275,9 +249,6 @@ public class PacmanMlAgent : Agent
     {
         RequestDecision();
         //this.transform.position = oldPosition;
-        //Debug.Log("old " + oldPosition);
-        //Debug.Log("nuova" + pacmanPosition);
-        //Debug.Log("delta time: " + Time.deltaTime);
         timer = timer - Time.deltaTime;
         //Debug.Log("timer"+ timer);
         //Debug.Log("distanza :" + Vector2.Distance(oldPosition, pacmanPosition));
@@ -297,14 +268,6 @@ public class PacmanMlAgent : Agent
             }*/
             timer = 0.5f;
         }
-
-        /*if (timer > 1f)
-        {
-            Debug.Log("old " + oldPosition + "nuoba " + pacmanPosition);
-           Debug.Log("sono in wait" + Vector2.Distance(oldPosition, pacmanPosition));
-           if (Vector2.Distance(oldPosition, pacmanPosition) < 2f)
-           EndEpisode();
-        }*/
         
 }
 public int getLive()
@@ -316,7 +279,7 @@ public int getLive()
     {
         this.live -= 1;
         this.liveText.GetComponent<Text>().text = "Live: " + this.live;
-        this.pacman.GetComponent<Transform>().position = new Vector3(71, 31, 0);
+        this.pacman.GetComponent<Transform>().position = new Vector2(71.3f, 32.5f);
         blinky.GetComponent<Transform>().position = blinkyPosition;
         blinky.GetComponent<GhostMove>().cur = 0;
         pinky.GetComponent<Transform>().position = pinkyPosition;
@@ -332,12 +295,13 @@ public int getLive()
     {
         this.score += 1;
         this.scoreText.GetComponent<Text>().text = "Score: " + this.score;
-        if (this.score == 323)
+        if (this.score == 291)
         {
             AddReward(2f);
             this.newText.GetComponent<Text>().text = "YOU WIN! ! ! !";
             score = 0;
             //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            EndEpisode();
             Invoke("Restart", restartDelay);
         }
 
@@ -357,6 +321,7 @@ public int getLive()
     {
         this.live = 3;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
     }
 
     //Osservazioi del player
@@ -368,7 +333,7 @@ public int getLive()
         sensor.AddObservation(pinky.transform.position);
         sensor.AddObservation(inky.transform.position);
         sensor.AddObservation(clyde.transform.position);
-        for (int i = 0; i <= 322; i++)
+        for (int i = 0; i <= 290; i++)
         {
             sensor.AddObservation(pacdotPosition[i]);
         }
